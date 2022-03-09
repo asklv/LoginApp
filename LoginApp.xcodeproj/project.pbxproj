@@ -13,6 +13,7 @@
 		55636C3427D6A75A004B26F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55636C3227D6A75A004B26F1 /* Main.storyboard */; };
 		55636C3627D6A75B004B26F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55636C3527D6A75B004B26F1 /* Assets.xcassets */; };
 		55636C3927D6A75B004B26F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55636C3727D6A75B004B26F1 /* LaunchScreen.storyboard */; };
+		55636C4127D93B27004B26F1 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55636C4027D93B27004B26F1 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		55636C3527D6A75B004B26F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55636C3827D6A75B004B26F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55636C3A27D6A75B004B26F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55636C4027D93B27004B26F1 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				55636C2E27D6A75A004B26F1 /* SceneDelegate.swift */,
 				55636C3027D6A75A004B26F1 /* ViewController.swift */,
 				55636C3227D6A75A004B26F1 /* Main.storyboard */,
+				55636C4027D93B27004B26F1 /* UserViewController.swift */,
 				55636C3527D6A75B004B26F1 /* Assets.xcassets */,
 				55636C3727D6A75B004B26F1 /* LaunchScreen.storyboard */,
 				55636C3A27D6A75B004B26F1 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55636C3127D6A75A004B26F1 /* ViewController.swift in Sources */,
+				55636C4127D93B27004B26F1 /* UserViewController.swift in Sources */,
 				55636C2D27D6A75A004B26F1 /* AppDelegate.swift in Sources */,
 				55636C2F27D6A75A004B26F1 /* SceneDelegate.swift in Sources */,
 			);
