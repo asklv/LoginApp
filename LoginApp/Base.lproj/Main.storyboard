@@ -10,7 +10,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -82,6 +81,7 @@
                         <constraints>
                             <constraint firstItem="FnX-FG-6Mh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5sv-hM-db8"/>
                             <constraint firstItem="FnX-FG-6Mh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D5t-vO-05B"/>
+                            <constraint firstItem="NVR-RS-3IW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="355:896" id="VUk-hb-Ywv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FnX-FG-6Mh" secondAttribute="trailing" constant="20" id="f3a-vM-yrp"/>
                             <constraint firstItem="FnX-FG-6Mh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yae-fU-Hy3"/>
                         </constraints>
@@ -91,6 +91,7 @@
                         <outlet property="inputUserTF" destination="K67-kg-7Qg" id="cxz-pV-7UW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="30" y="84"/>
         </scene>

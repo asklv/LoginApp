@@ -24,10 +24,6 @@ class ViewController: UIViewController {
         _ = UserViewController()
         _ = segue.destination as! UserViewController
     }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        super .touchesBegan(touches, with: event)
-    }
 
     @IBAction func loginButtonAction() {
         
